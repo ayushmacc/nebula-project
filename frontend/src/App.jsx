@@ -1,8 +1,10 @@
 import React from "react";
-import Chart from "/Users/ayushman/Downloads/finsight/frontend/src/components/chart.jsx";
-import QueryBox from "/Users/ayushman/Downloads/finsight/frontend/src/components/QueryBox.jsx";
-import Portfolio from "/Users/ayushman/Downloads/finsight/frontend/src/components/Portfolio.jsx";
-import Alerts from "/Users/ayushman/Downloads/finsight/frontend/src/components/alerts.jsx";
+import Preloader from "./components/preloader.jsx";
+import Chart from "./components/chart.jsx";
+import QueryBox from "./components/QueryBox.jsx";
+import Portfolio from "./components/Portfolio.jsx";
+import Alerts from "./components/alerts.jsx";
+import Login from "./components/login.jsx";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
